@@ -268,7 +268,8 @@ Hero
     color: $txt-light;
   }
   h1 {
-    color: $txt-light;
+    color: $accent-color;
+    font-weight: 500;
     margin-top: 170px;
     margin-bottom: 30px;
   }
@@ -276,7 +277,7 @@ Hero
   p.intro {
     color: $txt-light;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 500;
     margin-bottom: 80px;
   }
   .hero-content {
