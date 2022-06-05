@@ -5,8 +5,6 @@ const sass = require('gulp-sass')(require('sass')); // //var sass = require('gul
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 
-
-
 // compile scss to css
 gulp.task('sass', function () {
     return gulp.src('./sass/styles.scss')

@@ -270,7 +270,7 @@ Hero
   h1 {
     color: $accent-color;
     font-weight: 500;
-    margin-top: 170px;
+    /* margin-top: 170px; */
     margin-bottom: 30px;
   }
 
@@ -296,7 +296,7 @@ Hero
 }
 .fixed {
   position: fixed;
-  background-color:  rgba(55,36,40, .88); // rgba(115, 214, 143, 0.88); 
+  background-color: rgba(55, 36, 40, .88); // rgba(115, 214, 143, .88); 
   z-index: 999;
   width: 100%;
 }
@@ -526,7 +526,7 @@ Features-stack
     font-family: $accent-font;
     font-weight: 300;
     font-size: 25px;
-    color: #21b03c; // #F69D52
+    color: #21b03c;
     vertical-align: top;
     margin-left: -8px;
     font-style: normal;
@@ -729,7 +729,7 @@ Engagement Pics
 Embed video
 ========================================================================== */
 #video-bg {
-  height: 400px;
+  height: 300px;
 }
 #video-content {
   width: 100%;
@@ -753,13 +753,13 @@ Embed video
 Google map
 ========================================================================== */
 #map-canvas {
-  height: 600px;
+  height: 500px; /* 600px; */
   width: 100%;
 }
 #map-content-wrapper {
   position: relative;
-  margin-top: -682px;
-  margin-bottom: 100px;
+  margin-top: -502px; /* -682px; */
+  margin-bottom: 150px; /* 100px; */
 }
 #map-content {
   margin-top: 40px;
